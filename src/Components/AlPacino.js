@@ -8,10 +8,18 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     card: {
-        borderRadius: '20px',
-        width: '500px',
-        height: "400px"
-    }
+            borderRadius: '30px',
+            width: '800px',
+            height: '150px',
+            padding: '20px',
+            backgroundColor: 'black',
+            color: 'white',
+            border: 'white solid 5px',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontSize: '24px'
+        }
 });
 
 const AlPacino = () => {
@@ -19,7 +27,7 @@ const AlPacino = () => {
 
     return (
         <Card classes={{ root: classes.card }}>
-            <p>My father taught me many things here. He taught me in this room. He taught me; "Keep your friends close, but your enemies closer.</p>
+            <p>"My father taught me many things here. He taught me in this room. He taught me; "Keep your friends close, but your enemies closer." - Michael Corleone</p>
         </Card>
     )
 };
